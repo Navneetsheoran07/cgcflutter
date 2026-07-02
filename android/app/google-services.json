@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208994878518",
+    "project_id": "cgcfluttertraining",
+    "storage_bucket": "cgcfluttertraining.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208994878518:android:972121376a8dad7fcf4497",
+        "android_client_info": {
+          "package_name": "com.example.cgcflutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPNv8CsI1F901JIwfwCXf2ivulb8bJVNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
