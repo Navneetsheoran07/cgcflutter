@@ -3,6 +3,7 @@
 
 
 
+import 'package:cgcflutter/ApiExample/Screen/HomeScreen.dart';
 import 'package:cgcflutter/LoginScreen.dart';
 import 'package:cgcflutter/databaseExample/HomePage.dart';
 import 'package:cgcflutter/firebase_options.dart';
@@ -27,8 +28,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
 body:
+HomeScreen()
 //GoogleSignInButton()
-HomePage(),
+//HomePage(),
       ),
     );
   }
