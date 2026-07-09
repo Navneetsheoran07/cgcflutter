@@ -2,7 +2,7 @@ import 'package:cgcflutter/ApiExample/Service/api_service.dart';
 import 'package:flutter/material.dart';
 
 import '../model/user_model.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -37,6 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text(
           'Flutter API',
+          style: GoogleFonts.poppins(),
         ),
       ),
       body: _userModel == null || _userModel!.isEmpty
@@ -53,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Text(_userModel![index].id.toString()),
-                    Text(_userModel![index].username),
+                    Text(_userModel![index].name),
                   ],
                 ),
                 const SizedBox(
